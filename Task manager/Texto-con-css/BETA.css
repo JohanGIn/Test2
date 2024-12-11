@@ -1,0 +1,10 @@
+.BETA {
+    font-size: 0.4em;
+    font-style: italic;
+    color: blue;
+}
+
+.h1 {
+    text-align: center;
+    color: black;
+}

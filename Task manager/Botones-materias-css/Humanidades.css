@@ -1,0 +1,21 @@
+.button-conteiner {
+    background-color: #FFFF00; /* Fondo amarillo */
+    border: 2px solid #FFA500; /* Contorno naranja */
+    color: #333333; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave para el fondo y el color */
+    outline: none; /* Elimina el contorno por defecto */
+}
+
+.button-conteiner:focus {
+    outline: none; /* Elimina el contorno al hacer foco */
+}
+
+.button-conteiner:hover {
+    background-color: #FFD700; /* Fondo amarillo dorado al pasar el cursor */
+    color: #000000; /* Cambia el color del texto al pasar el cursor */
+}
+
